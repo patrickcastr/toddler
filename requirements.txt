@@ -1,0 +1,8 @@
+streamlit>=1.22.0
+pandas>=1.5.0
+numpy>=1.22.0
+matplotlib>=3.5.0
+pathlib>=1.0.1
+uuid>=1.30
+python-dateutil>=2.8.2
+openpyxl>=3.0.10  # For Excel file support

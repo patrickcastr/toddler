@@ -1,0 +1,10 @@
+{
+  "id": "6c39739a-de24-493f-9021-77c2722a001f",
+  "timestamp": "20250516_104850",
+  "query": "What is the documents about? are they relevant? ",
+  "documents": [
+    "pb_tech_your_perks.pdf",
+    "Full Stack Developer.pdf"
+  ],
+  "model": "codellama:7b"
+}

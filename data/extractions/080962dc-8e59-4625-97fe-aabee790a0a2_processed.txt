@@ -1,0 +1,86 @@
+
+---
+
+Malware Free Networks Deployment Plan for Todd Corporation
+=====================================================
+
+Introduction
+------------
+
+This document outlines the steps required to deploy Malware Free Networks (MFN) at Todd Corporation. The integration of MFN will enable Todd Corporation to receive up-to-date telemetry for attacks targeting New Zealand businesses, as collected by the National Cyber Security Centre (NCSC). Diode will configure and host infrastructure that facilitates the sharing of Indicators of Compromise (IOCs or "threat feed") between the NCSC and Todd Corporation's various in-scope endpoints.
+
+Overview
+--------
+
+The deployment of MFN at Todd Corporation will involve the following high-level steps:
+
+1. Confirm deployment methodology for each solution.
+2. Create solution integration points and gather required deployment details.
+3. Deploy Diode MFN test feed to Todd Corporation solutions.
+4. Test Diode MFN test feed integration with Todd Corporation solutions.
+5. Transition Todd Corporation to the Diode MFN production feed.
+
+Objectives
+----------
+
+The integration of MFN at Todd Corporation will meet the following objectives:
+
+* Configure ingestion of MFN production feed into Palo Alto Firewalls, Microsoft Sentinel, and Microsoft Defender.
+* Protect Todd Corporation infrastructure and employees from cyber threats targeting New Zealand organizations.
+
+Scope
+-----
+
+* Onboard Todd Corporation to the Diode MFN test feed to ingest IOCs into Microsoft Defender, Microsoft Sentinel, and Palo Alto firewalls.
+* Transition Todd Corporation to the Diode MFN production feed to ingest IOCs into Microsoft Defender, Microsoft Sentinel, and Palo Alto firewalls.
+* Create an S-Built documentation to facilitate future troubleshooting/understanding for the configuration of Diode MFN integration at Todd Corporation.
+
+Out of Scope
+--------------
+
+* Diode will not be responsible for completing change approval or any associated processes within Todd Corporation.
+* Diode will not be responsible for triage or response to matched IOCs identified by the integration.
+* Diode will not configure return telemetry during this deployment. Return telemetry will be configured once the Diode MFN production feed is onboarded.
+
+Key Contacts
+-------------
+
+The following table has a list of key contacts for the deployment of MFN at Todd Corporation:
+
+Role Name Phone Email
+----------- ------- ---- --------------------- ---------------------------------------- ----------------------
+Technology & Security Team Security Lead Reghann Coetsee 027 541 9714 rcoetsee@toddenergy.co.nz Pippa Melhop N/A pmelhop@toddcorporation.com Liam Farr N/A lfarr@toddcorporation.com
+Diode Project Lead Adam Deery 027 228 0155 Adam@diode.nz Diode Engineer Elliott Ramoo 020 4093 4226 Elliott@diode.nz Diode Support Support 0800 4 DIODE Support@diode.nz
+
+Deployment Overview
+-------------------
+
+The following section provides an overview of the steps required to integrate MFN into the Todd Corporation environment (further detailed guidance can be found below):
+
+Step Stage Completion Date
+1 Confirm deployment methodology for each solution. 18/10/2024 [Complete] Actions:
+
+1. Diode to confirm appropriate method for Todd Corporation to collect Diode MFN IOCs for Palo Alto's.
+2. Diode to confirm appropriate method for Todd Corporation to ingest Diode MFN IOCs into Microsoft Sentinel.
+3. Diode to confirm appropriate method for Todd Corporation to ingest Diode MFN IOCs into Microsoft Defender.
+2 Create solution integration points and gather required deployment details. 4/11/2024 Actions:
+
+1. Diode to provide Todd Corporation with required information to stand up Diode MFN integration for each solution.
+2. Todd Corporation to provide Diode with required information to stand up integration points to receive IOCs from Diode MFN.
+3 Deploy Diode MFN test feed to Todd Corporation solutions. 8/11/2024 Actions:
+
+1. Diode to configure the Diode MFN API for Microsoft on our side using information provided by Todd Corporation.
+2. Diode to allowlist the IP for a single Todd Corporation firewall to the Diode MFN Plaintext Output for test ingestion.
+3. Todd Corporation to configure an External Dynamic List on test Palo Alto firewall.
+4. Todd Corporation to configure Microsoft Sentinel to collect IOCs from Diode MFN API (this is secured with token instead of allowlisting).
+4 Test Diode MFN test feed integration with Todd Corporation solutions. 8/11/2024 Actions:
+
+1. Diode to conduct testing for each solution.
+2. Diode to ensure all relevant configuration changes are completed and approved by Todd Corporation.
+3. Diode to ensure all relevant configuration changes are documented and made available to Todd Corporation.
+4 Transition Todd Corporation to the Diode MFN production feed. 8/11/2024 Actions:
+
+1. Diode to complete any necessary configuration changes to the Diode MFN production feed for each solution.
+2. Diode to ensure all relevant configuration changes are approved by Todd Corporation.
+3. Diode to ensure all relevant documentation is completed and made available to Todd Corporation.
+4. Todd Corporation to begin using the Diode MFN production feed for each solution.

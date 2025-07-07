@@ -1,0 +1,10 @@
+{
+  "id": "067324d7-57d9-4d4b-bd38-6f08d68184ed",
+  "timestamp": "20250516_111942",
+  "query": "summarize this please",
+  "documents": [
+    "changelog.txt",
+    "help.txt"
+  ],
+  "model": "codellama:7b"
+}
