@@ -2,7 +2,7 @@
 
 A comprehensive local AI-powered application suite featuring economic modeling, text processing, and multi-tool AI capabilities - all running locally without cloud dependencies.
 
-![Local AI Assistant](https://raw.githubusercontent.com/patrickcastr/toddler/main/docs/images/preview.png)
+![Local AI Assistant](https://patrickcastr/toddler/main/docs/images/preview.png)
 
 ## 🚀 Features
 
@@ -231,4 +231,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Issues**: [GitHub Issues](https://github.com/patrickcastr/toddler/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/patrickcastr/toddler/discussions)
 
-***Made with ❤️ for the local AI community***
+**Made with ❤️ for the local AI community**
