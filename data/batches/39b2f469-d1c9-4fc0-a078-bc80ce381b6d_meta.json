@@ -1,0 +1,10 @@
+{
+  "id": "39b2f469-d1c9-4fc0-a078-bc80ce381b6d",
+  "timestamp": "20250814_085523",
+  "query": "what are the main changes in the path of  building software ??",
+  "documents": [
+    "asdasdas.pdf",
+    "coverlettertatua.pdf"
+  ],
+  "model": "qwen3:latest"
+}
